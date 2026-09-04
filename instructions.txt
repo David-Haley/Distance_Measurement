@@ -1,0 +1,5 @@
+Build a C/C++ aplication that reports distance in mm of an object to VL53L0 time of flight sensor.
+Hardware raspberry pi pico W and VL53L0 connected using I2C interface 0 on pins 1 ad 2.
+VL53L0 documentation is in /home/david/Pico_Projects/Distance_Measurement/Documents.
+The manufactirers code is in the directory /home/david/Pico_Projects/Distance_Measurement/Api.
+use the pico sdk in directory /home/david/pico.
