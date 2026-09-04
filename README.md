@@ -65,3 +65,10 @@ a distance (e.g. `Out of range (status 4)`).
 - `Documents/` — the ST VL53L0X API datasheet.
 
 See `CLAUDE.md` for more detailed build/architecture notes.
+
+## License
+
+This project's own code is licensed under the GNU General Public License
+v3.0 — see [LICENSE](LICENSE). The vendor VL53L0X API files under `Api/`
+retain STMicroelectronics' original BSD-3-Clause license, stated in each
+file's header.
