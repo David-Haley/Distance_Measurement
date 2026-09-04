@@ -40,7 +40,6 @@ int main(void)
 
 	printf("Initialising VL53L0X...\n");
 
-	die_on_error("WaitDeviceBooted", VL53L0X_WaitDeviceBooted(Dev));
 	die_on_error("DataInit", VL53L0X_DataInit(Dev));
 	die_on_error("StaticInit", VL53L0X_StaticInit(Dev));
 
